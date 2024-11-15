@@ -1,0 +1,1 @@
+For this to work you need to make a new directory called "static" and "templates" and you put the index.html file on templates and if you have a scripts.js file you also put it in templates and styles.css goes in static
