@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Advanced Projects</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>My Projects</h1>
+        <div class="buttons-container">
+            <div class="card" onclick="redirectTo('https://y8tireu.github.io/')">
+                <h2>My Portfolio Website</h2>
+                <p>You Get The Gist From The Title</p>
+            </div>
+            <div class="card" onclick="redirectTo('https://y8tireu.github.io/Sanjivram-Search-Engine/')">
+                <h2>My Search Engine</h2>
+                <p>A Search Engine That I Made That Uses DuckDuckGo</p>
+            </div>
+            <div class="card" onclick="redirectTo('https://sanjivramgamehub.netlify.app/')">
+                <h2>Gamehub</h2>
+                <p>A Game Website that has many games to discover and also some apps</p>
+            </div>
+            <div class="card" onclick="redirectTo('https://y8tireu.github.io/Gamehub/')">
+                <h2>Gamehub 2</h2>
+                <p>The Same thing As The top But Only Games</p>
+            </div>
+            <div class="card" onclick="redirectTo('https://y8tireu.github.io/Fruit-Ninja/')">
+                <h2>Fruit Ninja</h2>
+                <p>A Version Of Fruit Ninja I made</p>
+            </div>
+        </div>
+        <button class="profile-button" onclick="redirectTo('https://github.com/y8tireu')">Github Profile</button>
+    </div>
+    <script>
+        function redirectTo(url) {
+            window.open(url, '_blank'); // Opens the link in a new tab
+        }
+    </script>
+</body>
+</html>
